@@ -10,3 +10,11 @@ In this part, I begin by analyzing the MOSFET models from the TSMC180nm file. We
 
 <img width="1366" height="616" alt="Screenshot (3335)" src="https://github.com/user-attachments/assets/5f1aa7e6-9a9f-47f9-acc2-15e6a08d547a" />
 
+The Id vs Vgs curve is plotted by changing Vgs from 0 to 1.8V for different values of Vds. To do this, we use the commands shown in the LTspice schematic
+
+<img width="1361" height="589" alt="Screenshot (3334)" src="https://github.com/user-attachments/assets/fc4ac5b6-bafc-4b3c-966f-efc24200c491" />
+
+This shows us that the threshold value is between 500mV to 650mV
+
+
+
