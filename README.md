@@ -34,14 +34,26 @@ Here, we have chosen a suitable value of Vgs (greater than Vtn). Using the SPICE
 
 <img width="636" height="513" alt="Screenshot (3339)" src="https://github.com/user-attachments/assets/3f468e90-b112-4407-8f6e-c74f6c395faf" />
 
-## 1.12 STRONG 0 AND WEAK 1
+## 1.2 STRONG 0 AND WEAK 1
 What does this mean? To understand it better, look at the schematic and waveforms shown below.
 
 <img width="1366" height="635" alt="Screenshot (3350)" src="https://github.com/user-attachments/assets/b359c28d-53c7-493b-8aea-589ac5e37b14" />
 
 <img width="1366" height="616" alt="Screenshot (3340)" src="https://github.com/user-attachments/assets/a720ed99-5873-4f36-b520-24f60348387d" />
 
-Here, we see that when a square wave is given to the NMOS input, and the input is LOW (0V), the output becomes HIGH (1.8V). But when the input is HIGH (1.8V), the output is not fully LOW — it stays above 0V. This happens because when Vgs is 1.8V, the NMOS works in the linear region, where it behaves like a resistor controlled by voltage. In this condition, the output forms a voltage divider with the NMOS, so the output voltage depends on the resistance. That's why NMOS can pass a strong 0, but it cannot pass a strong 1
+Here, we see that when a square wave is given to the NMOS input, and the input is LOW (0V), the output becomes HIGH (1.8V). But when the input is HIGH (1.8V), the output is not fully LOW — it stays above 0V. This happens because when Vgs is 1.8V, the NMOS works in the linear region, where it behaves like a resistor controlled by voltage. In this condition, the output forms a voltage divider with the NMOS, so the output voltage depends on the resistance. That's why NMOS can pass a strong 0, but it cannot pass a strong 1.
+
+## 1.3 STRONG 1 AND WEAK 0
+look at the schematic and waveforms shown below.
+
+<img width="1357" height="607" alt="Screenshot (3343)" src="https://github.com/user-attachments/assets/8ff8aaee-67cf-4bb7-82a3-ca443681cce5" />
+
+<img width="1366" height="614" alt="Screenshot (3342)" src="https://github.com/user-attachments/assets/75d32e5a-5f28-449d-a430-e1bf98aa0ade" />
+
+Here, we see that when a square wave is given to the input of the PMOS, and the input is HIGH (1.8V), the output becomes LOW (0V). But when the input is LOW (0V), the output does not reach the full HIGH level — it stays below 1.8V. This happens because when Vsg is 1.8V, the PMOS operates in the linear region, where it acts like a voltage-controlled resistor. In this condition, the output is part of a voltage divider with the PMOS resistance, so the output voltage depends on that resistance. That’s why PMOS can pass a strong 1, but not a strong 0.
+
+
+
 
 
 
