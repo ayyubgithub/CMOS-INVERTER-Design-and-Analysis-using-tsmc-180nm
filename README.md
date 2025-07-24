@@ -1,1 +1,1 @@
-# CMOS-INVERTER-Design-and-Analysis-using-tsmc-180nm
+# CMOS INVERTER Design and Analysis using tsmc 180nm
