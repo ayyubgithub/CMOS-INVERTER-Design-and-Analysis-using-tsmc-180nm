@@ -34,6 +34,8 @@ Here, we have chosen a suitable value of Vgs (greater than Vtn). Using the SPICE
 
 <img width="636" height="513" alt="Screenshot (3339)" src="https://github.com/user-attachments/assets/3f468e90-b112-4407-8f6e-c74f6c395faf" />
 
+## 1.12 STRONG 0 AND WEAK 1
+
 
 
 
