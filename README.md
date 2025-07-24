@@ -7,3 +7,6 @@ The aim of this project is to help users learn how to use the LTspice tool and u
 
 ### NMOS Analysis
 In this part, I begin by analyzing the MOSFET models from the TSMC180nm file. We use Vdd = 1.8V and L = 180nm. For digital circuits, the length is usually taken as the minimum value, and the width is taken around 2 times the length or more. First, I am plotting the Id vs Vgs curve. Below is the LTspice setup used for this.
+
+<img width="1366" height="616" alt="Screenshot (3335)" src="https://github.com/user-attachments/assets/5f1aa7e6-9a9f-47f9-acc2-15e6a08d547a" />
+
