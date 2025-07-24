@@ -26,6 +26,14 @@ The Id vs Vds curve is plotted by changing Vds from 0 to 1.8V for different valu
 #### Output Plot (Id vs Vds)
 <img width="1366" height="616" alt="Screenshot (3337)" src="https://github.com/user-attachments/assets/e3be2a5b-a430-4f64-9bfc-6527684df1af" />
 
+Now, we will find the threshold voltage (Vtn) for NMOS. Below is the LTspice setup for it.
+
+<img width="1366" height="633" alt="Screenshot (3338)" src="https://github.com/user-attachments/assets/0c08e140-241d-4043-8483-25356a7d32e1" />
+
+Here, we have chosen a suitable value of Vgs (greater than Vtn). Using the SPICE error log, we will find the Vtn value. In this case, the width is taken as 0.36µm. You can open the SPICE error log in LTspice by pressing Ctrl + L to see the Vtn value.
+
+<img width="636" height="513" alt="Screenshot (3339)" src="https://github.com/user-attachments/assets/3f468e90-b112-4407-8f6e-c74f6c395faf" />
+
 
 
 
