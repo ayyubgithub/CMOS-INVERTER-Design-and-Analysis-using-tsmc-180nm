@@ -1,4 +1,4 @@
-# CMOS INVERTER Design and Analysis using tsmc 180nm
+# CMOS Invertr Design and Analysis using tsmc 180nm
 
 ## Description 
 The aim of this project is to help users learn how to use the LTspice tool and understand how a CMOS inverter works. It uses the TSMC180nm model file and starts by studying the basic behavior of MOSFETs. The goal is to look at different plots and find important values related to MOSFETs. After that, the project focuses on the CMOS inverter, where users observe its working and get important plots and values related to its performance.
@@ -33,6 +33,8 @@ Now, we will find the threshold voltage (Vtn) for NMOS. Below is the LTspice set
 Here, we have chosen a suitable value of Vgs (greater than Vtn). Using the SPICE error log, we will find the Vtn value. In this case, the width is taken as 0.36µm. You can open the SPICE error log in LTspice by pressing Ctrl + L to see the Vtn value.
 
 <img width="636" height="513" alt="Screenshot (3339)" src="https://github.com/user-attachments/assets/3f468e90-b112-4407-8f6e-c74f6c395faf" />
+
+
 
 
 
