@@ -78,7 +78,6 @@ We will now plot the Voltage Transfer Characteristics (VTC) curve of the inverte
 <img width="1366" height="617" alt="Screenshot (3344)" src="https://github.com/user-attachments/assets/1ce9885e-e715-436d-aac3-830662928fb1" />
 
 From the curve, we can see that Vin equals Vout at 0.903V, which is almost equal to VDD/2. This point is called the switching threshold of an inverter.
-
 From the above picture, we can see that the inverter works in five different regions.
 
 <img width="886" height="517" alt="Screenshot (3348)" src="https://github.com/user-attachments/assets/f248fd4c-8a4c-4f8a-888d-34cf13f866b5" />
