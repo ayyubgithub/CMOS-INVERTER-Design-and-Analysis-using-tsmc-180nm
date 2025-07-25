@@ -116,6 +116,14 @@ Vth – This is the threshold voltage or switching point of the inverter. We alr
 
 These five parameters are very important to understand how well an inverter performs. You can locate all of them on the VTC curve.
 
+Now, by using the condition where d(Vout)/d(Vin) = -1, we can find all these parameters. In LTspice, we first plot Vout, then apply the derivative function d() on it, and use the marker tool to measure the values directly from the graph.
+
+<img width="1366" height="612" alt="Screenshot (3345)" src="https://github.com/user-attachments/assets/8e064370-fe56-4627-8ad0-2ea5aafa98c2" />
+
+From the graph above, we find that VIL = 0.78V and VIH = 1.01V
+
+
+
 
 
 
