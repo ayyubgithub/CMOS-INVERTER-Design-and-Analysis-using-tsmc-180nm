@@ -98,6 +98,27 @@ When Vin increases further, the NMOS is fully ON and the PMOS starts turning OFF
 #### Region V: 
 At high Vin (close to VDD), the NMOS remains ON and the PMOS is completely OFF. This pulls the output to a strong LOW level (close to 0V).
 
+#### 2.2.2 Estimation of Noise Margin
+
+<img width="891" height="546" alt="Screenshot (3351)" src="https://github.com/user-attachments/assets/2027d4b4-9614-4e4e-915f-bdf712c45a7e" />
+
+Let’s understand the important parameters of a CMOS inverter using its VTC curve:
+
+VOH – This is the highest output voltage when the output is logic ‘1’.
+
+VOL – This is the lowest output voltage when the output is logic ‘0’.
+
+VIH – This is the highest input voltage that the inverter still sees as logic ‘0’.
+
+VIL – This is the lowest input voltage that the inverter sees as logic ‘1’.
+
+Vth – This is the threshold voltage or switching point of the inverter. We already found it to be 0.903V from the VTC curve.
+
+These five parameters are very important to understand how well an inverter performs. You can locate all of them on the VTC curve.
+
+👉 Note: For the inverter to have the best noise margins, the threshold voltage (Vth) should ideally be at VDD/2.
+
+
 
 
 
