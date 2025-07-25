@@ -65,6 +65,10 @@ CMOS circuits are usually made of two parts: the top part is called the pull-up 
 
 <img width="890" height="561" alt="Screenshot (3352)" src="https://github.com/user-attachments/assets/125f161a-79d2-4501-909c-01f57c89bc5e" />
 
+### 2.2 CMOS Inverter Design and Analysis using LTspice
+
+
+
 
 
 
