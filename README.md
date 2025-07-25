@@ -126,6 +126,17 @@ From the graph above, we find that VIL = 0.78V and VIH = 1.01V
 
 from the graph, we calculated VOL=0.1V and VOH=1.69V.
 
+Next, let’s understand Noise Margins. Noise margins show the range of input voltages where the circuit can still work properly, even if there is some noise. This is very important in digital circuits because they use fixed levels (like 0 and 1 in binary), so we need to know how much noise can be tolerated without causing errors. This is also called Noise Immunity.
+
+There are two types of noise margins in binary systems:
+
+NML (Noise Margin Low) = VIL - VOL
+
+NMH (Noise Margin High) = VOH - VIH
+
+Using our calculated values:
+
+
 
 
 
