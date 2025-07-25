@@ -56,6 +56,19 @@ So, using only NMOS or only PMOS does not work well for making an inverter. Many
 
 ## 2 CMOS INVERTER
 
+### 2.1 Why Chose CMOS Circuit?
+In the last part, we saw that NMOS and PMOS alone can't give both proper HIGH and LOW outputs. But they work well together because they are opposite in behavior. This idea led to combining them in one circuit. PMOS, which gives a strong 1, is placed between VDD and the output. NMOS, which gives a strong 0, is placed between the output and ground. This way, one turns ON when the other is OFF, so they don’t conduct at the same time (or do they?). This setup is called CMOS — short for Complementary Metal Oxide Semiconductor — and the simplest version of this is the CMOS inverter.
+
+<img width="889" height="346" alt="Screenshot (3364)" src="https://github.com/user-attachments/assets/d97cfc01-6747-4c49-adde-4aac68cb003f" />
+
+CMOS circuits are usually made of two parts: the top part is called the pull-up network, and the bottom part is the pull-down network. The pull-up uses PMOS transistors, and the pull-down uses NMOS transistors. The idea is simple — when one turns ON, the other turns OFF. This prevents any direct connection between VDD and GND, and avoids major voltage drops. With this setup, we can easily get both a strong HIGH and a strong LOW output. The pull-up gives a low-resistance path to VDD, and the pull-down gives a low-resistance path to GND.
+
+<img width="890" height="561" alt="Screenshot (3352)" src="https://github.com/user-attachments/assets/125f161a-79d2-4501-909c-01f57c89bc5e" />
+
+
+
+
+
 
 
 
