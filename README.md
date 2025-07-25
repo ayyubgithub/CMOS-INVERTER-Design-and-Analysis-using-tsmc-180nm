@@ -143,7 +143,7 @@ NMH = 1.696V - 1.01V = 0.695V
 In our case, the noise margins are very accurate and almost equal. However, in some situations, they may not be the same, especially if the threshold voltage (Vth) is not close to VDD/2.
 Here is the summary of our results.
 
-####  Parameter                           Value
+####  Parameter               ####        Value
       Vth                                 0.903
 
       VIL                                 0.780
