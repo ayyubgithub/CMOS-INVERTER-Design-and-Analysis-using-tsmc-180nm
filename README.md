@@ -78,9 +78,20 @@ We will now plot the Voltage Transfer Characteristics (VTC) curve of the inverte
 <img width="1366" height="617" alt="Screenshot (3344)" src="https://github.com/user-attachments/assets/1ce9885e-e715-436d-aac3-830662928fb1" />
 
 From the curve, we can see that Vin equals Vout at 0.903V, which is almost equal to VDD/2. This point is called the switching threshold of an inverter.
+
 From the above picture, we can see that the inverter works in five different regions.
 
 <img width="886" height="517" alt="Screenshot (3348)" src="https://github.com/user-attachments/assets/f248fd4c-8a4c-4f8a-888d-34cf13f866b5" />
+
+Region I: When the input voltage (Vin) is near 0V, the NMOS is OFF and the PMOS is fully ON. This allows the output (Vout) to stay at a strong HIGH (close to VDD).
+
+Region II: As Vin increases, the NMOS starts to turn ON while the PMOS is still ON. Both transistors conduct current, and the output voltage begins to drop from HIGH towards a lower value.
+
+Region III: This is the switching region where both NMOS and PMOS are ON. Vin and Vout are nearly equal here, and the inverter becomes very sensitive to changes. This region defines the switching threshold of the inverter.
+
+Region IV: When Vin increases further, the NMOS is fully ON and the PMOS starts turning OFF. The output continues to drop and approaches 0V.
+
+Region V: At high Vin (close to VDD), the NMOS remains ON and the PMOS is completely OFF. This pulls the output to a strong LOW level (close to 0V).
 
 
 
