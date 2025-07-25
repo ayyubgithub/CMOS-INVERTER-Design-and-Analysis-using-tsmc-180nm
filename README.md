@@ -156,6 +156,10 @@ Here is the summary of our results.
       VOH                                 1.696
 
 
+## Credits
+This work is also the part of simulation tasks given to us in our VLSI Design and Technology course in the fifth semester and also in LT Spice Lab. 
+
+
 
 
 
