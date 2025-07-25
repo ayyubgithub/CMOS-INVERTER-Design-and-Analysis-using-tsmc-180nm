@@ -122,6 +122,11 @@ Now, by using the condition where d(Vout)/d(Vin) = -1, we can find all these par
 
 From the graph above, we find that VIL = 0.78V and VIH = 1.01V
 
+<img width="1366" height="614" alt="Screenshot (3365)" src="https://github.com/user-attachments/assets/066ac17f-43fb-4b35-9299-bbf88a7e62d2" />
+
+from the graph, we calculated VOL=0.1V and VOH=1.69V.
+
+
 
 
 
