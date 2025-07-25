@@ -81,7 +81,7 @@ From the curve, we can see that Vin equals Vout at 0.903V, which is almost equal
 From the above picture, we can see that the inverter works in five different regions.
 
 <img width="886" height="517" alt="Screenshot (3348)" src="https://github.com/user-attachments/assets/f248fd4c-8a4c-4f8a-888d-34cf13f866b5" />
-###Region        NMOS        PMOS        Output (Vout)        Description
+### Region        NMOS        PMOS        Output (Vout)        Description
     I	            OFF	        ON	        High (≈ VDD)	       Strong HIGH
     II	      Turning ON	    ON	        Dropping	           Transition starts
     III	         ON	          ON	        Midpoint	           Switching region (Vout ≈ Vin)
