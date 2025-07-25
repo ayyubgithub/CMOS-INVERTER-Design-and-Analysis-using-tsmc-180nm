@@ -105,18 +105,12 @@ At high Vin (close to VDD), the NMOS remains ON and the PMOS is completely OFF. 
 Let’s understand the important parameters of a CMOS inverter using its VTC curve:
 
 VOH – This is the highest output voltage when the output is logic ‘1’.
-
 VOL – This is the lowest output voltage when the output is logic ‘0’.
-
 VIH – This is the highest input voltage that the inverter still sees as logic ‘0’.
-
 VIL – This is the lowest input voltage that the inverter sees as logic ‘1’.
-
 Vth – This is the threshold voltage or switching point of the inverter. We already found it to be 0.903V from the VTC curve.
-
 These five parameters are very important to understand how well an inverter performs. You can locate all of them on the VTC curve.
 
-👉 Note: For the inverter to have the best noise margins, the threshold voltage (Vth) should ideally be at VDD/2.
 
 
 
