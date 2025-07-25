@@ -52,6 +52,10 @@ look at the schematic and waveforms shown below.
 
 Here, we see that when a square wave is given to the input of the PMOS, and the input is HIGH (1.8V), the output becomes LOW (0V). But when the input is LOW (0V), the output does not reach the full HIGH level — it stays below 1.8V. This happens because when Vsg is 1.8V, the PMOS operates in the linear region, where it acts like a voltage-controlled resistor. In this condition, the output is part of a voltage divider with the PMOS resistance, so the output voltage depends on that resistance. That’s why PMOS can pass a strong 1, but not a strong 0.
 
+So, using only NMOS or only PMOS does not work well for making an inverter. Many different designs were tried, but the most effective and popular one is the CMOS circuit, which uses both NMOS and PMOS together.
+
+## 2 CMOS INVERTER
+
 
 
 
