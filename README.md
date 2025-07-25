@@ -67,6 +67,22 @@ CMOS circuits are usually made of two parts: the top part is called the pull-up 
 
 ### 2.2 CMOS Inverter Design and Analysis using LTspice
 
+Before going ahead, let’s first understand — what is an inverter? In simple words, an inverter is a circuit that does the NOT function, meaning it gives the opposite output of the input. Its performance is measured by things like noise margin and speed. Now, I have designed an inverter in LTspice. Here, the width of the PMOS is taken as 4 times the width of the NMOS. So, I have used W_NMOS = 0.36µm and W_PMOS = 1.44µm. Below is the LTspice schematic of this inverter.
+
+<img width="1366" height="637" alt="Screenshot (3346)" src="https://github.com/user-attachments/assets/d2ace9da-ce94-4ab3-940f-a654076d31b9" />
+
+#### 2.2.1 DC Characteristic of CMOS Inverter
+
+We will now plot the Voltage Transfer Characteristics (VTC) curve of the inverter using DC analysis. In this, we change Vin from 0V to 1.8V and plot both Vin and Vout. For this, we use the command: .dc vin 0 1.8 1m. Below is the resulting waveform.
+
+<img width="1366" height="617" alt="Screenshot (3344)" src="https://github.com/user-attachments/assets/1ce9885e-e715-436d-aac3-830662928fb1" />
+
+From the curve, we can see that Vin equals Vout at 0.903V, which is almost equal to VDD/2. This point is called the switching threshold of an inverter.
+
+
+
+
+
 
 
 
